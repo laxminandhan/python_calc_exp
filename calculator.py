@@ -11,7 +11,7 @@ class Calculator(object):
 
     def calc_expression(self, expression):
         if not expression:
-            print('Sorry, you need to load expression!')
+            print('Need to load expression!')
             return
 
         if expression.get_length() == 1:
